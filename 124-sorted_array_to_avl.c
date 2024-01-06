@@ -1,4 +1,4 @@
-nclude "binary_trees.h"
+#include "binary_trees.h"
 
 /**
  * create_tree - creates an AVL tree with recursion
@@ -61,4 +61,3 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
 
 	return (root);
 }
-
